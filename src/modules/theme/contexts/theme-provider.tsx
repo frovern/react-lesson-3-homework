@@ -7,7 +7,7 @@ type ThemeProviderProps = {
     children: ReactNode
 }
 
-export const ThemeProvider = ({ children }: ThemeProviderProps) => {
+export function ThemeProvider({ children }: ThemeProviderProps) {
     const [theme, setTheme] = useLocalStorage<Theme>('theme', 'light')
 
     const toggleTheme = () => {
