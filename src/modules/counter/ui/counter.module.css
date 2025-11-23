@@ -1,0 +1,13 @@
+.hooks{
+    background-color: rebeccapurple;
+}
+
+.context{
+    background-color: chocolate;
+}
+
+.block{
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 10px;
+}
